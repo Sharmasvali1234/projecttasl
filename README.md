@@ -1,22 +1,37 @@
-# Welcome to your Lovable project
 
-## Project info
 
-**URL**: https://lovable.dev/projects/3d8979a6-3744-4edf-b26b-ea0a2f2867f3
+# 📝 Blog Listing Page with Details
 
-## How can I edit this code?
+This is a simple **Blog Web Application** built to display multiple blogs with details.  
+Users can view a list of blogs with short previews and click "Read More" to view the full content of each blog.  
 
-There are several ways of editing your application.
+👉 [Project Repository](https://github.com/Sharmasvali1234/projecttasl)
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3d8979a6-3744-4edf-b26b-ea0a2f2867f3) and start prompting.
+## 🚀 Features
+- 📑 **Blog Listing Page**  
+  - Each blog shows a **title, thumbnail, short description, and "Read More" button**.
+- 📖 **Blog Details Page**  
+  - Displays the **full content** of the selected blog.
+- 💾 **Static JSON Storage**  
+  - Blog data is stored in a static `blogs.json` file.
+- 📱 **Responsive Design**  
+  - Works smoothly on **desktop, tablet, and mobile devices**.
+- 🔎 **Bonus Features** *(optional)*  
+  - Categories, tags, and blog search functionality.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📂 Project Structure
+project-folder/
+│── index.html # Blog listing page
+│── blog.html # Blog details page
+│── blogs.json # Static JSON file with blog data
+│── css/
+│ └── styles.css # Styling
+│── js/
+│ └── script.js # Fetch & render blogs dynamically
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -60,14 +75,4 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/3d8979a6-3744-4edf-b26b-ea0a2f2867f3) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
