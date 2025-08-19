@@ -9,7 +9,7 @@
     "readTime": "8 min read",
     "category": "Development",
     "tags": ["React", "Performance", "Server Components", "Web Development"],
-    "image": "/api/placeholder/800/400?text=React+Server+Components"
+    "image": "react-server-components"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "readTime": "12 min read",
     "category": "Programming",
     "tags": ["TypeScript", "Programming", "Best Practices", "Advanced"],
-    "image": "/api/placeholder/800/400?text=TypeScript+Advanced+Patterns"
+    "image": "typescript-patterns"
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "readTime": "10 min read",
     "category": "Accessibility",
     "tags": ["Accessibility", "Web Components", "Inclusive Design", "UX"],
-    "image": "/api/placeholder/800/400?text=Web+Accessibility+Guide"
+    "image": "web-accessibility"
   },
   {
     "id": 4,
@@ -45,7 +45,7 @@
     "readTime": "7 min read",
     "category": "CSS",
     "tags": ["CSS", "Layout", "Grid", "Flexbox", "Responsive Design"],
-    "image": "/api/placeholder/800/400?text=CSS+Grid+vs+Flexbox"
+    "image": "css-grid-flexbox"
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
     "readTime": "15 min read",
     "category": "Design",
     "tags": ["UX Design", "Psychology", "User Interface", "Cognitive Science"],
-    "image": "/api/placeholder/800/400?text=Psychology+of+UI+Design"
+    "image": "psychology-ui-design"
   },
   {
     "id": 6,
@@ -69,6 +69,6 @@
     "readTime": "14 min read",
     "category": "Performance",
     "tags": ["React", "Performance", "Optimization", "JavaScript"],
-    "image": "/api/placeholder/800/400?text=React+Performance+Optimization"
+    "image": "react-performance"
   }
 ]

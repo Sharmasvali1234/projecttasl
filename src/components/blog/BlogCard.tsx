@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Clock, User, Calendar } from "lucide-react";
 import { Link } from "react-router-dom";
+import { getBlogImage } from "@/utils/blogImages";
 
 interface BlogCardProps {
   id: number;
@@ -30,7 +31,7 @@ export const BlogCard = ({
     <article className="blog-card group">
       <div className="relative overflow-hidden rounded-t-lg">
         <img 
-          src={`https://images.unsplash.com/800x400?auto=format&fit=crop&q=80&w=800&h=400&sig=${id}`}
+          src={getBlogImage(image)}
           alt={title}
           className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105"
           loading="lazy"

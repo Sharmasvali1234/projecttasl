@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeft, Clock, User, Calendar, Share2, Bookmark } from "lucide-react";
 import blogsData from "@/data/blogs.json";
+import { getBlogImage } from "@/utils/blogImages";
 
 const BlogDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -83,7 +84,7 @@ const BlogDetail = () => {
       {/* Hero Image */}
       <div className="relative h-64 md:h-80 lg:h-96 overflow-hidden">
         <img 
-          src={`https://images.unsplash.com/1200x600?auto=format&fit=crop&q=80&w=1200&h=600&sig=${blog.id}`}
+          src={getBlogImage(blog.image)}
           alt={blog.title}
           className="w-full h-full object-cover"
         />
@@ -175,7 +176,7 @@ const BlogDetail = () => {
                   >
                     <article className="border border-border rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300">
                       <img 
-                        src={`https://images.unsplash.com/400x200?auto=format&fit=crop&q=80&w=400&h=200&sig=${relatedBlog.id}`}
+                        src={getBlogImage(relatedBlog.image)}
                         alt={relatedBlog.title}
                         className="w-full h-32 object-cover group-hover:scale-105 transition-transform duration-300"
                       />
